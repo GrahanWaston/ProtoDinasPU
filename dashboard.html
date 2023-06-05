@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords"
+		content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="shortcut icon" href="images/icons/logo.png" />
+
+	<title>NDALEM</title>
+
+	<link href="css/app.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar js-sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand text-center" href="dashboard.html">
+					<img src="images/Logo DIY.png" height="75" alt="">
+					<h6 class="fs-3 text-center text-white"
+						style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">NDALEM</h6>
+					<p style="font-size: 0.65rem; font-weight: 100;">Network Residence Information Qualified System</p>
+				</a>
+
+				<ul class="sidebar-nav">
+					<li class="sidebar-header">
+						General Dashboard
+					</li>
+
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="dashboard.html">
+							<i class="align-middle " data-feather="sliders"></i> <span
+								class="align-middle ">Dashboard</span>
+						</a>
+					</li>
+
+					<li class="sidebar-header">
+						Menu Management
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="baseline.html">
+							<i class="align-middle" data-feather="server"></i> <span class="align-middle">Data
+								Baseline</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="rencanaPenanganan.html">
+							<i class="align-middle" data-feather="file-text"></i> <span class="align-middle">Rencana
+								Penanganan</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="verifikasiData.html">
+							<i class="align-middle" data-feather="check-circle"></i> <span
+								class="align-middle">Verifikasi Data</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="penanganan.html">
+							<i class="align-middle" data-feather="check"></i> <span
+								class="align-middle">Penanganan</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="duplikasi.html">
+							<i class="align-middle" data-feather="copy"></i> <span
+								class="align-middle">Duplikasi Data</span>
+						</a>
+					</li>
+
+					<li class="sidebar-header">
+						Sessions & Users
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="manajemenUser.html">
+							<i class="align-middle" data-feather="user-check"></i> <span class="align-middle">Manajemen
+								User</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item ">
+						<a class="sidebar-link" href="sumberData.html">
+							<i class=" align-middle" data-feather="clock"></i> <span class="align-middle">Sumber
+								Data</span>
+						</a>
+					</li>
+				</ul>
+
+				<div class="mt-3 text-center py-3 bg-transparent">
+					<img src="images/icons/logoPU.svg" class="ms-4" style="float: left;" height="40" alt="">
+					<div class="text-light fs-4"
+						style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">DPUP-ESDM DIY
+					</div>
+					<div class="text-light fs-6"
+						style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">2023</div>
+				</div>
+			</div>
+		</nav>
+
+		<div class="main">
+			<nav class="navbar navbar-expand navbar-light navbar-bg text-white">
+				<a class="sidebar-toggle js-sidebar-toggle ">
+					<i class="hamburger align-self-center"></i>
+				</a>
+				<div>
+					<span class="d-none d-md-inline-block text-dark"> Dinas Pekerjaan Umum, Perumahan Dan Energi Sumber
+						Daya Mineral </span>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align">
+						<li class="nav-item dropdown">
+							<a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#"
+								data-bs-toggle="dropdown">
+								<i class="align-middle" data-feather="settings"></i>
+							</a>
+
+							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#"
+								data-bs-toggle="dropdown">
+								<i class="align-middle text-dark" data-feather="user"></i>
+								<span class="text-dark">Waston</span>
+							</a>
+							<div class="dropdown-menu dropdown-menu-end">
+								<a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="edit"></i>
+									Ganti Password</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="index.html">Log out</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<main class="content">
+				<div class="container-fluid p-0">
+					<h1 class="h3 mb-3"><strong>Analytics</strong> Dashboard</h1>
+					<div class="row">
+						<div class="col-xl-6 col-xxl-5 d-flex">
+							<div class="w-100">
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="card">
+											<div class="card-body">
+												<div class="row">
+													<div class="col mt-0">
+														<h5 class="card-title">Baseline</h5>
+													</div>
+
+													<div class="col-auto">
+														<div class="stat text-bg-light">
+															<i class="text-warning" data-feather="users"></i>
+														</div>
+													</div>
+												</div>
+												<h1 class="mt-1 mb-3">2.382</h1>
+												<div class="mb-0">
+													<span class="text-muted">Point Average</span>
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-body">
+												<div class="row">
+													<div class="col mt-0">
+														<h5 class="card-title">Lolos Verifikasi</h5>
+													</div>
+													<div class="col-auto">
+														<div class="stat text-bg-light">
+															<i class="align-middle" data-feather="users"></i>
+														</div>
+													</div>
+												</div>
+												<h1 class="mt-1 mb-3">103</h1>
+												<div class="mb-0">
+													<span class="text-muted">Point Average</span>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="card">
+											<div class="card-body">
+												<div class="row">
+													<div class="col mt-0">
+														<h5 class="card-title">Rencana Penanganan</h5>
+													</div>
+
+													<div class="col-auto">
+														<div class="stat text-bg-light">
+															<i class="align-middle" data-feather="users"></i>
+														</div>
+													</div>
+												</div>
+												<h1 class="mt-1 mb-3">100</h1>
+												<div class="mb-0">
+													<span class="text-muted">Point Average</span>
+												</div>
+											</div>
+										</div>
+										<div class="card">
+											<div class="card-body">
+												<div class="row">
+													<div class="col mt-0">
+														<h5 class="card-title">Penanganan</h5>
+													</div>
+
+													<div class="col-auto">
+														<div class="stat text-bg-light">
+															<i class="align-middle" data-feather="users"></i>
+														</div>
+													</div>
+												</div>
+												<h1 class="mt-1 mb-3">100</h1>
+												<div class="mb-0">
+													<span class="text-muted">Point Average</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-xl-6 col-xxl-7">
+							<div class="card flex-fill w-100">
+								<div class="card-header">
+									<h5 class="card-title mb-0">Inputan Data Baseline per User</h5>
+								</div>
+								<div class="card-body py-3">
+									<div class="chart chart-sm">
+										<canvas id="chartjs-dashboard-line"></canvas>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 ">
+							<div class="card flex-fill w-100">
+								<div class="card-body d-flex">
+									<div class="align-self-center w-100">
+										<div class="py-3">
+											<div id="baseline">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-12 col-lg-12 col-xxl-12 d-flex">
+							<div class="card flex-fill">
+								<div class="card-header">
+
+									<h5 class="card-title text-center text-dark fs-3 mb-0">Rekapitulasi Data</h5>
+								</div>
+								<table class="table table-hover my-0">
+									<thead>
+										<tr>
+											<th style="width:30px">No</th>
+											<th>Kabupaten</th>
+											<th style="width:100px; text-align:center; background:#f3fff8">Total Data
+											</th>
+											<th style="width:100px; text-align:center; background:#f3fff8">Baseline</th>
+											<th style="width:100px; text-align:center; background:#f3fff8">Rencana
+												Penanganan</th>
+											<!--
+					  <th style="width:100px; text-align:center; background:#f3fff8">Lolos Verifikasi Administrasi</th>
+					  <th style="width:100px; text-align:center; background:#f3fff8">Lolos Verifikasi Admin & Fisik</th>
+					  -->
+											<th style="width:100px; text-align:center; background:#f3fff8">Penanganan
+											</th>
+											<th style="width:100px; text-align:center; background:#f3fff8">Duplikasi
+											</th>
+											<th style="width:100px; text-align:center; background:#f3fff8">Tidak Aktif
+											</th>
+										</tr>
+									</thead>
+									<tbody>
+
+										<tr>
+											<td>1.</td>
+											<!--td><a href="https://ndalem.jogjaprov.go.id/admin/rekapitulasi/realisasi_kec/1">Kabupaten Bantul</a></td-->
+											<td>Kabupaten Bantul</td>
+											<td align="right" style="background:#f3fff8">296</td>
+											<td align="right" style="background:#f3fff8">0</td>
+											<td align="right" style="background:#f3fff8">0</td>
+											<!--
+										  <td align="right" style="background:#f3fff8">202</td>
+										  <td align="right" style="background:#f3fff8">0</td>
+										  -->
+											<td align="right" style="background:#f3fff8">94</td>
+											<td align="right" style="background:#f3fff8">0</td>
+											<td align="right" style="background:#f3fff8">0</td>
+										</tr>
+										<tr>
+											<td>2.</td>
+											<!--td><a href="https://ndalem.jogjaprov.go.id/admin/rekapitulasi/realisasi_kec/2">Kabupaten Gunungkidul</a></td-->
+											<td>Kabupaten Gunungkidul</td>
+											<td align="right" style="background:#f3fff8">1,290</td>
+											<td align="right" style="background:#f3fff8">1,119</td>
+											<td align="right" style="background:#f3fff8">148</td>
+											<!--
+										  <td align="right" style="background:#f3fff8">0</td>
+										  <td align="right" style="background:#f3fff8">0</td>
+										  -->
+											<td align="right" style="background:#f3fff8">23</td>
+											<td align="right" style="background:#f3fff8">0</td>
+											<td align="right" style="background:#f3fff8">0</td>
+										</tr>
+										<tr>
+											<td>3.</td>
+											<!--td><a href="https://ndalem.jogjaprov.go.id/admin/rekapitulasi/realisasi_kec/3">Kabupaten Kulon Progo</a></td-->
+											<td>Kabupaten Kulon Progo</td>
+											<td align="right" style="background:#f3fff8">199</td>
+											<td align="right" style="background:#f3fff8">0</td>
+											<td align="right" style="background:#f3fff8">147</td>
+											<!--
+										  <td align="right" style="background:#f3fff8">0</td>
+										  <td align="right" style="background:#f3fff8">0</td>
+										  -->
+											<td align="right" style="background:#f3fff8">52</td>
+											<td align="right" style="background:#f3fff8">0</td>
+											<td align="right" style="background:#f3fff8">0</td>
+										</tr>
+										<tr>
+											<td>4.</td>
+											<!--td><a href="https://ndalem.jogjaprov.go.id/admin/rekapitulasi/realisasi_kec/4">Kabupaten Sleman</a></td-->
+											<td>Kabupaten Sleman</td>
+											<td align="right" style="background:#f3fff8">306</td>
+											<td align="right" style="background:#f3fff8">116</td>
+											<td align="right" style="background:#f3fff8">138</td>
+											<!--
+										  <td align="right" style="background:#f3fff8">0</td>
+										  <td align="right" style="background:#f3fff8">0</td>
+										  -->
+											<td align="right" style="background:#f3fff8">50</td>
+											<td align="right" style="background:#f3fff8">2</td>
+											<td align="right" style="background:#f3fff8">0</td>
+										</tr>
+										<tr>
+											<td>5.</td>
+											<!--td><a href="https://ndalem.jogjaprov.go.id/admin/rekapitulasi/realisasi_kec/5">Kota Yogyakarta</a></td-->
+											<td>Kota Yogyakarta</td>
+											<td align="right" style="background:#f3fff8">97</td>
+											<td align="right" style="background:#f3fff8">87</td>
+											<td align="right" style="background:#f3fff8">0</td>
+											<!--
+										  <td align="right" style="background:#f3fff8">0</td>
+										  <td align="right" style="background:#f3fff8">0</td>
+										  -->
+											<td align="right" style="background:#f3fff8">8</td>
+											<td align="right" style="background:#f3fff8">2</td>
+											<td align="right" style="background:#f3fff8">0</td>
+										</tr>
+										<tr>
+											<td>#</td>
+											<td><b>TOTAL</b></td>
+											<td align="right" style="background:#f3fff8"><b>2,188</b></td>
+											<td align="right" style="background:#f3fff8"><b>1,322</b></td>
+											<td align="right" style="background:#f3fff8"><b>433</b></td>
+											<!--
+									  <td align="right" style="background:#f3fff8"><b>202</b></td>
+									  <td align="right" style="background:#f3fff8"><b>0</b></td>
+									  -->
+											<td align="right" style="background:#f3fff8"><b>227</b></td>
+											<td align="right" style="background:#f3fff8"><b>4</b></td>
+											<td align="right" style="background:#f3fff8"><b>0</b></td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/series-label.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+	<script>
+		Highcharts.chart('baseline', {
+
+			title: {
+				text: 'Perbandingan data Baseline, Rencana Penanganan, Lolos Verifikasi, Penanganan',
+				align: 'center'
+			},
+
+			yAxis: {
+				title: {
+					text: 'Angka Data'
+				}
+			},
+
+			xAxis: {
+				categories: ["Bantul", "Gunungkidul", "Kulon Progo", "Sleman", "Kota Yogyakarta"]
+			},
+
+			legend: {
+				layout: 'vertical',
+				align: 'right',
+				verticalAlign: 'middle'
+			},
+
+			series: [{
+				name: 'Baseline',
+				data: [0, 1119, 0, 116, 87]
+			}, {
+				name: 'Rencana Penanganan',
+				data: [0, 148, 147, 138, 0]
+			}, {
+				name: 'Lolos Verifikasi',
+				data: [0, 0, 0, 0, 0]
+			}, {
+				name: 'Penanganan',
+				data: [94, 23, 52, 50, 0]
+			},],
+
+			responsive: {
+				rules: [{
+					condition: {
+						maxWidth: 500
+					},
+					chartOptions: {
+						legend: {
+							layout: 'horizontal',
+							align: 'center',
+							verticalAlign: 'bottom'
+						}
+					}
+				}]
+			},
+
+			credits: {
+				enabled: false
+			},
+
+		});
+	</script>
+
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var ctx = document.getElementById("chartjs-dashboard-line").getContext("2d");
+			var gradient = ctx.createLinearGradient(0, 0, 0, 225);
+			gradient.addColorStop(0, "rgba(215, 227, 244, 1)");
+			gradient.addColorStop(1, "rgba(215, 227, 244, 0)");
+			// Line chart
+			new Chart(document.getElementById("chartjs-dashboard-line"), {
+				type: "line",
+				data: {
+					labels: ["Provinsi", "Pokir DPRD", "DTKS", "Kab/Kota", "Desa", "Pusat"],
+					datasets: [{
+						label: "Poin",
+						fill: true,
+						backgroundColor: gradient,
+						borderColor: '#F5D21F',
+						data: [
+							2115,
+							1562,
+							1584,
+							1892,
+							1587,
+							1923
+						]
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					tooltips: {
+						intersect: false
+					},
+					hover: {
+						intersect: true
+					},
+					plugins: {
+						filler: {
+							propagate: false
+						}
+					},
+					scales: {
+						xAxes: [{
+							reverse: true,
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}],
+						yAxes: [{
+							ticks: {
+								stepSize: 1000
+							},
+							display: true,
+							borderDash: [3, 3],
+							gridLines: {
+								color: "rgba(0,0,0,0.0)"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Pie chart
+			new Chart(document.getElementById("chartjs-dashboard-pie"), {
+				type: "pie",
+				data: {
+					labels: ["Chrome", "Firefox", "IE"],
+					datasets: [{
+						data: [47, 53],
+						backgroundColor: [
+							window.theme.dark,
+							window.theme.warning
+						],
+						borderWidth: 5
+					}]
+				},
+				options: {
+					responsive: !window.MSInputMethodContext,
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					cutoutPercentage: 75
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Pie chart
+			new Chart(document.getElementById("chartjs-dashboard-pie-sda"), {
+				type: "pie",
+				data: {
+					labels: ["Chrome", "Firefox", "IE"],
+					datasets: [{
+						data: [47, 53],
+						backgroundColor: [
+							window.theme.dark,
+							window.theme.warning
+						],
+						borderWidth: 5
+					}]
+				},
+				options: {
+					responsive: !window.MSInputMethodContext,
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					cutoutPercentage: 75
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			// Bar chart
+			new Chart(document.getElementById("chartjs-dashboard-bar"), {
+				type: "bar",
+				data: {
+					labels: ["1", "2", "3", "4", "5", "6", "7"],
+					datasets: [{
+						label: "This year",
+						backgroundColor: window.theme.warning,
+						borderColor: window.theme.dark,
+						hoverBackgroundColor: window.theme.success,
+						hoverBorderColor: window.theme.warning,
+						data: [54, 67, 41, 55, 62, 45, 55],
+						barPercentage: .75,
+						categoryPercentage: .5
+					}]
+				},
+				options: {
+					maintainAspectRatio: false,
+					legend: {
+						display: false
+					},
+					scales: {
+						yAxes: [{
+							gridLines: {
+								display: false
+							},
+							stacked: false,
+							ticks: {
+								stepSize: 20
+							}
+						}],
+						xAxes: [{
+							stacked: false,
+							gridLines: {
+								color: "transparent"
+							}
+						}]
+					}
+				}
+			});
+		});
+	</script>
+	<script>
+		document.addEventListener("DOMContentLoaded", function () {
+			var date = new Date(Date.now() - 5 * 24 * 60 * 60 * 1000);
+			var defaultDate = date.getUTCFullYear() + "-" + (date.getUTCMonth() + 1) + "-" + date.getUTCDate();
+			document.getElementById("datetimepicker-dashboard").flatpickr({
+				inline: true,
+				prevArrow: "<span title=\"Previous month\">&laquo;</span>",
+				nextArrow: "<span title=\"Next month\">&raquo;</span>",
+				defaultDate: defaultDate
+			});
+		});
+	</script>
+
+</body>
+
+</html>
