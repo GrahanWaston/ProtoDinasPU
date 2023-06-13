@@ -35,15 +35,31 @@
 						General Dashboard
 					</li>
 
-					<li class="sidebar-item ">
+					<li class="sidebar-item">
 						<a class="sidebar-link" href="dashboard.html">
-							<i class="align-middle " data-feather="sliders"></i> <span
+							<i class="align-middle " data-feather="home"></i> <span
 								class="align-middle ">Dashboard</span>
 						</a>
 					</li>
 
 					<li class="sidebar-header">
-						Menu Management
+						Referensi
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="sumberdana.html">
+							<i class="align-middle" data-feather="dollar-sign"></i> <span class="align-middle">Sumber Dana</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="datapengusul.html">
+							<i class="align-middle" data-feather="user-plus"></i> <span class="align-middle">Data Pengusul</span>
+						</a>
+					</li>
+
+					<li class="sidebar-header">
+						Main Menu
 					</li>
 
 					<li class="sidebar-item">
@@ -68,21 +84,45 @@
 					</li>
 
 					<li class="sidebar-item">
+						<a class="sidebar-link" href="datapenanganan.html">
+							<i class="align-middle" data-feather="folder-minus"></i> <span class="align-middle">Seleksi
+								Penanganan</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
 						<a class="sidebar-link" href="penanganan.html">
 							<i class="align-middle" data-feather="check"></i> <span
 								class="align-middle">Penanganan</span>
 						</a>
 					</li>
 
+					<li class="sidebar-header">
+						Laporan
+					</li>
+
 					<li class="sidebar-item">
-						<a class="sidebar-link" href="duplikasi.html">
-							<i class="align-middle" data-feather="copy"></i> <span
-								class="align-middle">Duplikasi Data</span>
+						<a class="sidebar-link" href="databaseline.html">
+							<i class="align-middle" data-feather="server"></i> <span class="align-middle">Report
+								Baseline</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="datarencanapenanganan.html">
+							<i class="align-middle" data-feather="file-text"></i> <span class="align-middle">Report Rencana</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="datalolosverifikasi.html">
+							<i class="align-middle" data-feather="check-circle"></i> <span class="align-middle">Report
+								Verifikasi</span>
 						</a>
 					</li>
 
 					<li class="sidebar-header">
-						Sessions & Users
+						Manajemen Menu
 					</li>
 
 					<li class="sidebar-item">
@@ -92,10 +132,10 @@
 						</a>
 					</li>
 
-					<li class="sidebar-item ">
-						<a class="sidebar-link" href="sumberData.html">
-							<i class=" align-middle" data-feather="clock"></i> <span class="align-middle">Sumber
-								Data</span>
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="duplikasi.html">
+							<i class="align-middle" data-feather="copy"></i> <span
+								class="align-middle">Duplikasi Data</span>
 						</a>
 					</li>
 				</ul>
@@ -161,34 +201,9 @@
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-4">
-							<nav class="navbar navbar-expand-lg w-100 card">
-								<div class="container-fluid">
-									<div class=" " role="tablist" id="navbarNav">
-										<ul class="navbar-nav">
-											<li class="nav-item">
-												<a class="nav-link " data-bs-toggle="list" href="#penanganan"
-													role="tab">
-													Seleksi Data
-												</a>
-											</li>
-											<li class="nav-item">
-												<a class="nav-link " data-bs-toggle="list" href="#rancangan" role="tab">
-													Data Rencana Penanganan
-												</a>
-											</li>
-										</ul>
-									</div>
-								</div>
-							</nav>
-						</div>
-					</div>
-
-					<div class="row">
-
 						<div class="col-md-12 col-xl-12">
-							<div class="tab-content">
-								<div class="tab-pane fade" id="penanganan" role="tabpanel">
+							<div class="row">
+								<div class="col-md-12 col-xl-12">
 									<div class="container-fluid p-0">
 										<div class="row">
 											<div class="col-12 col-lg-12 col-xxl-12 d-flex">
@@ -201,20 +216,16 @@
 																		<div
 																			class="row justify-content-between mb-3 d-print-none">
 																			<div class="col mb-3 mb-md-0">
-																				<div class="input-group date"
-																					id="datepicker">
-																					<input type="text"
-																						class="form-control"
+																				<div class="input-group date" id="datepicker">
+																					<input type="text" class="form-control"
 																						id="start_date" name="months"
-																						autocomplete="off"
-																						placeholder="NIK">
+																						autocomplete="off" placeholder="NIK">
 																				</div>
 																			</div>
 																			<div class="col mb-3 mb-md-0">
 																				<div class="input-group date"
 																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
+																					<select name="" id="" class="form-control">
 																						<option selected disabled>
 																							Kabupaten</option>
 																						<option>Bantul</option>
@@ -228,8 +239,7 @@
 																			<div class="col mb-3 mb-md-0">
 																				<div class="input-group date"
 																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
+																					<select name="" id="" class="form-control">
 																						<option selected disabled>
 																							Kecamatan</option>
 																						<option>Depok</option>
@@ -241,8 +251,7 @@
 																			<div class="col mb-3 mb-md-0">
 																				<div class="input-group date"
 																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
+																					<select name="" id="" class="form-control">
 																						<option selected disabled>
 																							Kelurahan</option>
 																						<option>Maguwoharjo</option>
@@ -253,8 +262,7 @@
 																			<div class="col mb-3 mb-md-0">
 																				<div class="input-group date"
 																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
+																					<select name="" id="" class="form-control">
 																						<option selected disabled>Label
 																						</option>
 																						<option>Balecatur</option>
@@ -265,8 +273,7 @@
 																			<div class="col mb-3 mb-md-0">
 																				<div class="input-group date"
 																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
+																					<select name="" id="" class="form-control">
 																						<option selected disabled>
 																							Pengusul</option>
 																						<option>Provinsi</option>
@@ -280,7 +287,7 @@
 																				<button type="submit"
 																					class="btn btn-success">Proses</button>
 																			</div>
-
+		
 																			<div class="col-auto">
 																			</div>
 																		</div>
@@ -288,7 +295,7 @@
 																</div>
 															</div>
 														</div>
-
+		
 														<div class="table-responsive">
 															<table class="table table-hover my-0">
 																<thead>
@@ -296,9 +303,9 @@
 																		<th width="10">No</th>
 																		<th>NIK </th>
 																		<th>Nama </th>
-																		<th>Desa</th>
-																		<th>Kecamatan </th>
 																		<th>Kabupaten </th>
+																		<th>Kecamatan </th>
+																		<th>Desa</th>
 																		<th>Pengusul</th>
 																		<th>Aksi</th>
 																	</tr>
@@ -308,21 +315,21 @@
 																		<td>1.</td>
 																		<td>3471063112500003</td>
 																		<td>A DJAWALAN/HADI MULYANA</td>
-																		<td>NGAMPILAN</td>
-																		<td>NGAMPILAN</td>
 																		<td>YOGYAKARTA</td>
+																		<td>NGAMPILAN</td>
+																		<td>NGAMPILAN</td>
 																		<td>Provinsi</td>
 																		<td class="d-print-none"><input type="checkbox"
-																			name="profilid[]" value="1222"
-																			onClick="selectall()"></td>
+																				name="profilid[]" value="1222"
+																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>2.</td>
 																		<td>3403120002000180</td>
 																		<td>ADI GIYONO AL WAGE</td>
-																		<td>HARGOMULYO</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>HARGOMULYO</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="1222"
@@ -332,9 +339,9 @@
 																		<td>3.</td>
 																		<td>3403120002001122</td>
 																		<td>ADI KARIYO</td>
-																		<td>HARGOMULYO</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>HARGOMULYO</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="1207"
@@ -344,9 +351,9 @@
 																		<td>4.</td>
 																		<td>3403120001001373</td>
 																		<td>ADI PAIKIN</td>
-																		<td>NGALANG</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>NGALANG</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="1673"
@@ -356,9 +363,9 @@
 																		<td>5.</td>
 																		<td>3403120003000613</td>
 																		<td>ADI PRAYITNO</td>
-																		<td>MERTELU</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>MERTELU</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="1493"
@@ -368,9 +375,9 @@
 																		<td>6.</td>
 																		<td>3403120007001039</td>
 																		<td>ADI SUMARTO</td>
-																		<td>SERUT</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>SERUT</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="2012"
@@ -380,9 +387,9 @@
 																		<td>7.</td>
 																		<td>3403120004000482</td>
 																		<td>ADI SUTRISNA</td>
-																		<td>TEGALREJO</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>TEGALREJO</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="2139"
@@ -392,9 +399,9 @@
 																		<td>8.</td>
 																		<td>3403120004000514</td>
 																		<td>ADI SUTRISNO AL KLIWON</td>
-																		<td>TEGALREJO</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>TEGALREJO</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="2081"
@@ -404,9 +411,9 @@
 																		<td>9.</td>
 																		<td>3403120007000658</td>
 																		<td>ADI SUWITO</td>
-																		<td>SERUT</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>SERUT</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="1885"
@@ -416,9 +423,9 @@
 																		<td>10.</td>
 																		<td>3403120002000647</td>
 																		<td>ADI SUWITO</td>
-																		<td>HARGOMULYO</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>HARGOMULYO</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="1362"
@@ -428,9 +435,9 @@
 																		<td>11.</td>
 																		<td>3403120002000903</td>
 																		<td>ADI SUWITO</td>
-																		<td>HARGOMULYO</td>
-																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>GEDANGSARI</td>
+																		<td>HARGOMULYO</td>
 																		<td>Kab/Kota</td>
 																		<td class="d-print-none"><input type="checkbox"
 																				name="profilid[]" value="1353"
@@ -451,9 +458,8 @@
 																</tbody>
 															</table>
 														</div>
-
-														<div
-															class="row justify-content-between align-items-center mb-3">
+		
+														<div class="row justify-content-between align-items-center mb-3">
 															<div class="col-auto mb-3 mb-md-0">
 																<div class="row gx-2">
 																	<div class="col" style="margin-left: 2vh;">
@@ -466,11 +472,10 @@
 																	<div class="col-auto">
 																		<button class="btn btn-icon btn-white">
 																			<!-- Download SVG icon from http://tabler-icons.io/i/chevron-left -->
-																			<svg xmlns="http://www.w3.org/2000/svg"
-																				class="icon" width="24" height="24"
-																				viewBox="0 0 24 24" stroke-width="2"
-																				stroke="currentColor" fill="none"
-																				stroke-linecap="round"
+																			<svg xmlns="http://www.w3.org/2000/svg" class="icon"
+																				width="24" height="24" viewBox="0 0 24 24"
+																				stroke-width="2" stroke="currentColor"
+																				fill="none" stroke-linecap="round"
 																				stroke-linejoin="round">
 																				<path stroke="none" d="M0 0h24v24H0z"
 																					fill="none" />
@@ -480,11 +485,10 @@
 																		<button class="btn btn-white">1</button>
 																		<button class="btn btn-icon btn-white">
 																			<!-- Download SVG icon from http://tabler-icons.io/i/chevron-right -->
-																			<svg xmlns="http://www.w3.org/2000/svg"
-																				class="icon" width="24" height="24"
-																				viewBox="0 0 24 24" stroke-width="2"
-																				stroke="currentColor" fill="none"
-																				stroke-linecap="round"
+																			<svg xmlns="http://www.w3.org/2000/svg" class="icon"
+																				width="24" height="24" viewBox="0 0 24 24"
+																				stroke-width="2" stroke="currentColor"
+																				fill="none" stroke-linecap="round"
 																				stroke-linejoin="round">
 																				<path stroke="none" d="M0 0h24v24H0z"
 																					fill="none" />
@@ -497,287 +501,7 @@
 														</div>
 													</div>
 												</div>
-
 											</div>
-
-										</div>
-									</div>
-								</div>
-								<div class="tab-pane fade" id="rancangan">
-									<div class="container-fluid p-0">
-										<div class="row">
-											<div class="col-12 col-lg-12 col-xxl-12 d-flex">
-												<div class="card flex-fill">
-													<div class="row justify-content-between align-items-center mb-3">
-														<div class="col-auto mb-3 mb-md-0">
-															<div class="row gx-1">
-																<div class="col">
-																	<div class="container-xl mt-3">
-																		<div class="row justify-content-between mb-3 d-print-none">
-																			<div class="col mb-3 mb-md-0">
-																				<div class="input-group date"
-																					id="datepicker">
-																					<input type="text"
-																						class="form-control"
-																						id="start_date" name="months"
-																						autocomplete="off"
-																						placeholder="NIK">
-																				</div>
-																			</div>
-																			<div class="col mb-3 mb-md-0">
-																				<div class="input-group date"
-																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
-																						<option selected disabled>
-																							Kabupaten</option>
-																						<option>Bantul</option>
-																						<option>Kulon Progo</option>
-																						<option>Kota Yogyakarta
-																						</option>
-																						<option>Gunung Kidul
-																						</option>
-																						<option>Sleman</option>
-																					</select>
-																				</div>
-																			</div>
-																			<div class="col mb-3 mb-md-0">
-																				<div class="input-group date"
-																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
-																						<option selected disabled>
-																							Kecamatan</option>
-																						<option>Depok</option>
-																						<option>Godean</option>
-																						<option>Pakem</option>
-																					</select>
-																				</div>
-																			</div>
-																			<div class="col mb-3 mb-md-0">
-																				<div class="input-group date"
-																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
-																						<option selected disabled>
-																							Kelurahan</option>
-																						<option>Maguwoharjo</option>
-																						<option>Condongcatur
-																						</option>
-																					</select>
-																				</div>
-																			</div>
-																			<div class="col mb-3 mb-md-0">
-																				<div class="input-group date"
-																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
-																						<option selected disabled>
-																							Label
-																						</option>
-																						<option>Balecatur</option>
-																						<option>Banyuraden</option>
-																					</select>
-																				</div>
-																			</div>
-																			<div class="col mb-3 mb-md-0">
-																				<div class="input-group date"
-																					id="datepickeryear">
-																					<select name="" id=""
-																						class="form-control">
-																						<option selected disabled>
-																							Pengusul</option>
-																						<option>Provinsi</option>
-																						<option>Kab/Kota</option>
-																					</select>
-																				</div>
-																			</div>
-																			<div class="col mb-3 mb-md-0 btn-group">
-																				<button type="submit"
-																					class="btn btn-primary me-2">Cari</button>
-																			</div>
-
-																		
-																		</div>
-																	</div>
-																</div>
-															</div>
-														</div>
-
-														<div class="table-responsive">
-															<table class="table table-hover my-0">
-																<thead>
-																	<tr>
-																		<th width="10">No</th>
-																		<th>NIK </th>
-																		<th>Nama </th>
-																		<th>Desa</th>
-																		<th>Kecamatan </th>
-																		<th>Kabupaten </th>
-																		<th>Pengusul</th>
-																	</tr>
-																</thead>
-																<tbody>
-																	<tr>
-																		<td>1.</td>
-																		<td>3471063112500003</td>
-																		<td>A DJAWALAN/HADI MULYANA</td>
-																		<td>NGAMPILAN</td>
-																		<td>NGAMPILAN</td>
-																		<td>YOGYAKARTA</td>
-																		<td>Provinsi</td>
-																	</tr>
-																	<tr>
-																		<td>2.</td>
-																		<td>3403120002000180</td>
-																		<td>ADI GIYONO AL WAGE</td>
-																		<td>HARGOMULYO</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>3.</td>
-																		<td>3403120002001122</td>
-																		<td>ADI KARIYO</td>
-																		<td>HARGOMULYO</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>4.</td>
-																		<td>3403120001001373</td>
-																		<td>ADI PAIKIN</td>
-																		<td>NGALANG</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>5.</td>
-																		<td>3403120003000613</td>
-																		<td>ADI PRAYITNO</td>
-																		<td>MERTELU</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>6.</td>
-																		<td>3403120007001039</td>
-																		<td>ADI SUMARTO</td>
-																		<td>SERUT</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>7.</td>
-																		<td>3403120004000482</td>
-																		<td>ADI SUTRISNA</td>
-																		<td>TEGALREJO</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>8.</td>
-																		<td>3403120004000514</td>
-																		<td>ADI SUTRISNO AL KLIWON</td>
-																		<td>TEGALREJO</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>9.</td>
-																		<td>3403120007000658</td>
-																		<td>ADI SUWITO</td>
-																		<td>SERUT</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>10.</td>
-																		<td>3403120002000647</td>
-																		<td>ADI SUWITO</td>
-																		<td>HARGOMULYO</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>11.</td>
-																		<td>3403120002000903</td>
-																		<td>ADI SUWITO</td>
-																		<td>HARGOMULYO</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																	<tr>
-																		<td>12.</td>
-																		<td>3403120003001039</td>
-																		<td>ADI WARSITA</td>
-																		<td>MERTELU</td>
-																		<td>GEDANGSARI</td>
-																		<td>GUNUNG KIDUL</td>
-																		<td>Kab/Kota</td>
-																	</tr>
-																</tbody>
-															</table>
-														</div>
-
-														<div
-															class="row justify-content-between align-items-center mb-3">
-															<div class="col-auto mb-3 mb-md-0">
-																<div class="row gx-2">
-																	<div class="col" style="margin-left: 2vh;">
-																		Showing 1 to 2 of 2 entries
-																	</div>
-																</div>
-															</div>
-															<div class="col-auto">
-																<div class="row gx-2 align-items-center">
-																	<div class="col-auto">
-																		<button class="btn btn-icon btn-white">
-																			<!-- Download SVG icon from http://tabler-icons.io/i/chevron-left -->
-																			<svg xmlns="http://www.w3.org/2000/svg"
-																				class="icon" width="24" height="24"
-																				viewBox="0 0 24 24" stroke-width="2"
-																				stroke="currentColor" fill="none"
-																				stroke-linecap="round"
-																				stroke-linejoin="round">
-																				<path stroke="none" d="M0 0h24v24H0z"
-																					fill="none" />
-																				<polyline points="15 6 9 12 15 18" />
-																			</svg>
-																		</button>
-																		<button class="btn btn-white">1</button>
-																		<button class="btn btn-icon btn-white">
-																			<!-- Download SVG icon from http://tabler-icons.io/i/chevron-right -->
-																			<svg xmlns="http://www.w3.org/2000/svg"
-																				class="icon" width="24" height="24"
-																				viewBox="0 0 24 24" stroke-width="2"
-																				stroke="currentColor" fill="none"
-																				stroke-linecap="round"
-																				stroke-linejoin="round">
-																				<path stroke="none" d="M0 0h24v24H0z"
-																					fill="none" />
-																				<polyline points="9 6 15 12 9 18" />
-																			</svg>
-																		</button>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-
-											</div>
-
 										</div>
 									</div>
 								</div>

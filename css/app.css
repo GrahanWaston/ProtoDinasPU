@@ -10,8 +10,8 @@
     --bs-purple: #6f42c1;
     --bs-pink: #e83e8c;
     --bs-red: #dc3545;
-    --bs-orange: #f5d21f;
-    --bs-yellow: #f5d21f;
+    --bs-orange: #ff7b00;
+    --bs-yellow: #ff7b00;
     --bs-green: #1cbb8c;
     --bs-teal: #20c997;
     --bs-cyan: #17a2b8;
@@ -70,7 +70,7 @@
     --bs-link-color: #3b7ddd;
     --bs-link-hover-color: #2f64b1;
     --bs-code-color: #e83e8c;
-    --bs-highlight-bg: #fdf6d2
+    --bs-highlight-bg: #ffe5cc
 }
 
 *,
@@ -13321,7 +13321,7 @@ screen and (-ms-high-contrast:active) {
 
 .sidebar,
 .sidebar-content {
-    background: #183446;
+    background: #216f5e;
     transition: margin-left .35s ease-in-out, left .35s ease-in-out, margin-right .35s ease-in-out, right .35s ease-in-out
 }
 
@@ -13340,9 +13340,9 @@ screen and (-ms-high-contrast:active) {
 
 .sidebar-link,
 a.sidebar-link {
-    background: #183446;
+    background: #216f5e;
     border-left: 3px solid transparent;
-    color: rgba(233, 236, 239, .5);
+    color: #fff;
     cursor: pointer;
     display: block;
     font-weight: 400;
@@ -13356,7 +13356,7 @@ a.sidebar-link {
 .sidebar-link svg,
 a.sidebar-link i,
 a.sidebar-link svg {
-    color: rgba(233, 236, 239, .5);
+    color: #fff;
     margin-right: .75rem
 }
 
@@ -13365,28 +13365,28 @@ a.sidebar-link svg {
 }
 
 .sidebar-link:hover {
-    background: #183446;
-    border-left-color: transparent
+    background: #fff;
+    border-left-color: transparent;
+    color: #000
 }
 
-.sidebar-link:hover,
 .sidebar-link:hover i,
 .sidebar-link:hover svg {
-    color: rgba(233, 236, 239, .75)
+    color: #000
 }
 
 .sidebar-item.active .sidebar-link:hover,
 .sidebar-item.active>.sidebar-link {
-    background: linear-gradient(90deg, rgba(255, 123, 0, .1), rgba(255, 123, 0, .088) 50%, transparent);
-    border-left-color: #f5d21f;
-    color: #e9ecef
+    background: #fff;
+    border-left-color: #96c43d;
+    color: #000
 }
 
 .sidebar-item.active .sidebar-link:hover i,
-.sidebar-item.active .sidebar-link:hover svg,
+.sidebar-item.active .sidebar-link:hover svg
 .sidebar-item.active>.sidebar-link i,
 .sidebar-item.active>.sidebar-link svg {
-    color: #e9ecef
+    color: #000
 }
 
 .sidebar-brand {
@@ -13433,7 +13433,7 @@ a.sidebar-link svg {
 
 .sidebar-header {
     background: transparent;
-    color: #ced4da;
+    color: #fff;
     font-size: .75rem;
     padding: 1.5rem 1.5rem .375rem
 }
@@ -13525,7 +13525,7 @@ a {
 
 .wrapper {
     align-items: stretch;
-    background: #183446;
+    background: #216f5e;
     display: flex;
     width: 100%
 }
@@ -14786,16 +14786,6 @@ span.flatpickr-weekday {
     position: sticky;
     top: 0;
     width: 260px
-}
-
-.navbar-nav>.active>a {
-    color: lemonchiffon;
-    background-color: var(--bs-yellow);
-    border-radius: 3%;
-}
-
-.nav-item>a:hover {
-    color: #343a40;
 }
 
 /*# sourceMappingURL=app.css.map*/

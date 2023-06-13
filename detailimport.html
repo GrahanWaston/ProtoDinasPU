@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+    <meta name="author" content="AdminKit">
+    <meta name="keywords"
+        content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="shortcut icon" href="images/icons/logo.png" />
+
+    <title>NDALEM</title>
+
+    <link href="css/app.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav id="sidebar" class="sidebar js-sidebar">
+            <div class="sidebar-content js-simplebar">
+                <a class="sidebar-brand text-center" href="dashboard.html">
+                    <img src="images/Logo DIY.png" height="75" alt="">
+                    <h6 class="fs-3 text-center text-white"
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">NDALEM</h6>
+                    <p style="font-size: 0.65rem; font-weight: 100;">Network Residence Information Qualified System</p>
+                </a>
+
+                <ul class="sidebar-nav">
+					<li class="sidebar-header">
+						General Dashboard
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="dashboard.html">
+							<i class="align-middle " data-feather="home"></i> <span
+								class="align-middle ">Dashboard</span>
+						</a>
+					</li>
+
+					<li class="sidebar-header">
+						Referensi
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="sumberdana.html">
+							<i class="align-middle" data-feather="dollar-sign"></i> <span class="align-middle">Sumber Dana</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="datapengusul.html">
+							<i class="align-middle" data-feather="user-plus"></i> <span class="align-middle">Data Pengusul</span>
+						</a>
+					</li>
+
+					<li class="sidebar-header">
+						Main Menu
+					</li>
+
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="baseline.html">
+							<i class="align-middle" data-feather="server"></i> <span class="align-middle">Data
+								Baseline</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="rencanaPenanganan.html">
+							<i class="align-middle" data-feather="file-text"></i> <span class="align-middle">Rencana
+								Penanganan</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="verifikasiData.html">
+							<i class="align-middle" data-feather="check-circle"></i> <span
+								class="align-middle">Verifikasi Data</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="datapenanganan.html">
+							<i class="align-middle" data-feather="folder-minus"></i> <span class="align-middle">Seleksi
+								Penanganan</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="penanganan.html">
+							<i class="align-middle" data-feather="check"></i> <span
+								class="align-middle">Penanganan</span>
+						</a>
+					</li>
+
+					<li class="sidebar-header">
+						Laporan
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="databaseline.html">
+							<i class="align-middle" data-feather="server"></i> <span class="align-middle">Report
+								Baseline</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="datarencanapenanganan.html">
+							<i class="align-middle" data-feather="file-text"></i> <span class="align-middle">Report Rencana</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="datalolosverifikasi.html">
+							<i class="align-middle" data-feather="check-circle"></i> <span class="align-middle">Report
+								Verifikasi</span>
+						</a>
+					</li>
+
+					<li class="sidebar-header">
+						Manajemen Menu
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="manajemenUser.html">
+							<i class="align-middle" data-feather="user-check"></i> <span class="align-middle">Manajemen
+								User</span>
+						</a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href="duplikasi.html">
+							<i class="align-middle" data-feather="copy"></i> <span
+								class="align-middle">Duplikasi Data</span>
+						</a>
+					</li>
+				</ul>
+
+                <div class="mt-3 text-center py-3 bg-transparent">
+                    <img src="images/icons/logoPU.svg" class="ms-4" style="float: left;" height="40" alt="">
+                    <div class="text-light "
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">DPUP-ESDM DIY
+                    </div>
+                    <div class="text-light fs-6"
+                        style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">2023</div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main">
+            <nav class="navbar navbar-expand navbar-light navbar-bg text-white">
+                <a class="sidebar-toggle js-sidebar-toggle ">
+                    <i class="hamburger align-self-center"></i>
+                </a>
+                <div>
+                    <span class="d-none d-md-inline-block text-dark"> Dinas Pekerjaan Umum, Perumahan Dan Energi Sumber
+                        Daya Mineral </span>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="navbar-nav navbar-align">
+                        <li class="nav-item dropdown">
+                            <a class="nav-icon dropdown-toggle d-inline-block d-sm-none" href="#"
+                                data-bs-toggle="dropdown">
+                                <i class="align-middle" data-feather="settings"></i>
+                            </a>
+
+                            <a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#"
+                                data-bs-toggle="dropdown">
+                                <i class="align-middle text-dark" data-feather="user"></i>
+                                <span class="text-dark">Waston</span>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-end">
+                                <a class="dropdown-item" href="#"><i class="align-middle me-1" data-feather="edit"></i>
+                                    Ganti Password</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="index.html">Log out</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
+            <main class="content">
+                <div class="container-fluid p-0">
+
+                    <div class="row justify-content-between align-items-center mb-3">
+                        <div class="col-auto">
+                            <h1 class="h3 mb-3"><strong>Home</strong> / Data Penanganan / Data Detail Import</h1>
+                        </div>
+                        <div class="col-auto">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary btn-icon">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-12 col-xxl-12 d-flex">
+                            <div class="card flex-fill">
+                                <div class="card-header">
+                                    <h4>Data Detail Penanganan</h4>
+                                </div>
+                                <table class="table table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th width="30%">Label Data</th>
+                                        <td>Banyuraden Gamping Sleman</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Kabupaten</th>
+                                        <td>Kabupaten Sleman</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Kelompok Pengusul</th>
+                                        <td>Kab/Kota</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Keterangan</th>
+                                        <td>-&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <th>File Proposal/SK</th>
+                                        <td>&nbsp;</td>
+                                      </tr>
+                                      <tr>
+                                        <th>Jumlah Data</th>
+                                        <td>42&nbsp;</td>
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      
+                                    </tbody>
+                                  </table>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-12 col-xxl-12 d-flex">
+                            <div class="card flex-fill">
+                                <table class="table table-vcenter card-table">
+                                    <thead>
+                                      <tr>
+                                        <th class="w-1">No</th>
+                                        <th style="width:180px">NIK </th>
+                                        <th> Nama  </th>
+                                        <th>Desa</th>
+                                        <th>Kecamatan </th>
+                                        <th>Kabupaten </th>
+                                        <th>Pengusul</th>
+                                        <!--th class="w-1 d-print-none"><input type="checkbox" name="allCheck" onClick="selectallMe()"></th-->
+                                      </tr>
+                                    </thead>
+                                    <tbody>
+                                      
+                                          <tr>
+                                              <td>1.</td>
+                                              <td>3404010505530007</td>
+                                              <td>YATIMIN ALIAS YUSWO SUTRISNO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="142" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>2.</td>
+                                              <td>3404011202780005</td>
+                                              <td>WIYONO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="139" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>3.</td>
+                                              <td>3404010505780004</td>
+                                              <td>WARIJO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="120" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>4.</td>
+                                              <td>3404011512740005</td>
+                                              <td>TUGIMAN</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="137" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>5.</td>
+                                              <td>3404010911620003</td>
+                                              <td>TRIYONO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="111" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>6.</td>
+                                              <td>3404015305750004</td>
+                                              <td>TRI ISMIYATI</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="113" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>7.</td>
+                                              <td>3404011212740002</td>
+                                              <td>SUYANTO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="108" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>8.</td>
+                                              <td>3404012710720001</td>
+                                              <td>SUYANTO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="143" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>9.</td>
+                                              <td>3404011304650003</td>
+                                              <td>SUROSO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="110" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>10.</td>
+                                              <td>3404010902660004</td>
+                                              <td>SURAJO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="127" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>11.</td>
+                                              <td>3404012610830002</td>
+                                              <td>SURADI</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="128" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>12.</td>
+                                              <td>3404010202500001</td>
+                                              <td>SUPONO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="147" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>13.</td>
+                                              <td>3404011708490001</td>
+                                              <td>SUPANA</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="138" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>14.</td>
+                                              <td>3404011204650001</td>
+                                              <td>SUNAR PRAPTO DARYANTO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="107" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>15.</td>
+                                              <td>3404010705680007</td>
+                                              <td>SUKIMAN</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="133" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>16.</td>
+                                              <td>3404015607740001</td>
+                                              <td>SUKARTINI</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="129" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>17.</td>
+                                              <td>3404010404380001</td>
+                                              <td>SUKARJO HARI SUMARTO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="124" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>18.</td>
+                                              <td>1802020107810179</td>
+                                              <td>SUHERMAN</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="144" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>19.</td>
+                                              <td>3404010401770004</td>
+                                              <td>SUHARNO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="140" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>20.</td>
+                                              <td>3404011011600005</td>
+                                              <td>SUGIYO/SETIYO SAYUTI</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="123" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>21.</td>
+                                              <td>3404011205630004</td>
+                                              <td>SUDARMI</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="122" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>22.</td>
+                                              <td>3404010508680004</td>
+                                              <td>SISWADI</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="116" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>23.</td>
+                                              <td>3404010505830008</td>
+                                              <td>SHOLEH</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="121" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>24.</td>
+                                              <td>3404011712740004</td>
+                                              <td>SARMADI</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="119" onClick="selectall()"></td>
+                                              -->
+                                          </tr>
+                                          <tr>
+                                              <td>25.</td>
+                                              <td>3404013012540004</td>
+                                              <td>SARIJO</td>
+                                              <td>BANYURADEN</td>
+                                              <td>GAMPING</td>
+                                              <td>SLEMAN</td>
+                                              <td>Kab/Kota</td>
+                                              <!--
+                                              <td class="d-print-none"><input type="checkbox" name="profilid[]" value="145" onClick="selectall()"></td>
+                                              -->
+                                          </tr>					
+                                    </tbody>
+                                  </table>
+                            </div>
+
+                    </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            "use strict";
+
+            $('ul.navbar-nav > li').click(function (e) {
+                e.preventDefault();
+                $('ul.navbar-nav > li').removeClass('active');
+                $(this).addClass('active');
+            });
+        });
+    </script>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
