@@ -121,6 +121,12 @@
 						</a>
 					</li>
 
+					<li class="sidebar-item">
+                        <a class="sidebar-link" href="tidaklolos.html">
+                            <i class="align-middle" data-feather="x-square"></i> <span class="align-middle">Report Tidak Lolos</span>
+                        </a>
+                    </li>
+
 					<li class="sidebar-header">
 						Manajemen Menu
 					</li>
@@ -263,10 +269,10 @@
 																				<div class="input-group date"
 																					id="datepickeryear">
 																					<select name="" id="" class="form-control">
-																						<option selected disabled>Label
+																						<option selected disabled>Jenis
 																						</option>
-																						<option>Balecatur</option>
-																						<option>Banyuraden</option>
+																						<option>Bangun Baru</option>
+																						<option>Perbaikan</option>
 																					</select>
 																				</div>
 																			</div>
@@ -301,159 +307,172 @@
 																<thead>
 																	<tr>
 																		<th width="10">No</th>
+																		<th>Aksi</th>
 																		<th>NIK </th>
 																		<th>Nama </th>
 																		<th>Kabupaten </th>
 																		<th>Kecamatan </th>
 																		<th>Desa</th>
+																		<th>Jenis</th>
 																		<th>Pengusul</th>
-																		<th>Aksi</th>
 																	</tr>
 																</thead>
 																<tbody>
 																	<tr>
 																		<td>1.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" value="1222"
+																				onClick="selectall()"></td>
 																		<td>3471063112500003</td>
 																		<td>A DJAWALAN/HADI MULYANA</td>
 																		<td>YOGYAKARTA</td>
 																		<td>NGAMPILAN</td>
 																		<td>NGAMPILAN</td>
+																		<td>Bangun Baru</td>
 																		<td>Provinsi</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="1222"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>2.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120002000180</td>
 																		<td>ADI GIYONO AL WAGE</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>HARGOMULYO</td>
+																		<td>Bangun Baru</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="1222"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>3.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120002001122</td>
 																		<td>ADI KARIYO</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>HARGOMULYO</td>
+																		<td>Perbaikan</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="1207"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>4.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120001001373</td>
 																		<td>ADI PAIKIN</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>NGALANG</td>
+																		<td>Bangun Baru</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="1673"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>5.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120003000613</td>
 																		<td>ADI PRAYITNO</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>MERTELU</td>
+																		<td>Perbaikan</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="1493"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>6.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120007001039</td>
 																		<td>ADI SUMARTO</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>SERUT</td>
+																		<td>Bangun Baru</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="2012"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>7.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120004000482</td>
 																		<td>ADI SUTRISNA</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>TEGALREJO</td>
+																		<td>Perbaikan</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="2139"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>8.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120004000514</td>
 																		<td>ADI SUTRISNO AL KLIWON</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>TEGALREJO</td>
+																		<td>Perbaikan</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="2081"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>9.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120007000658</td>
 																		<td>ADI SUWITO</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>SERUT</td>
+																		<td>Perbaikan</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="1885"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>10.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120002000647</td>
 																		<td>ADI SUWITO</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>HARGOMULYO</td>
+																		<td>Bangun Baru</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="1362"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>11.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120002000903</td>
 																		<td>ADI SUWITO</td>
 																		<td>GUNUNG KIDUL</td>
 																		<td>GEDANGSARI</td>
 																		<td>HARGOMULYO</td>
+																		<td>Perbaikan</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="1353"
-																				onClick="selectall()"></td>
 																	</tr>
 																	<tr>
 																		<td>12.</td>
+																		<td class="d-print-none"><input type="checkbox"
+																				name="profilid[]" 
+																				onClick="selectall()"></td>
 																		<td>3403120003001039</td>
 																		<td>ADI WARSITA</td>
 																		<td>MERTELU</td>
 																		<td>GEDANGSARI</td>
 																		<td>GUNUNG KIDUL</td>
+																		<td>Bangun Baru</td>
 																		<td>Kab/Kota</td>
-																		<td class="d-print-none"><input type="checkbox"
-																				name="profilid[]" value="1568"
-																				onClick="selectall()"></td>
 																	</tr>
 																</tbody>
 															</table>

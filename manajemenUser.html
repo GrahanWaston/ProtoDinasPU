@@ -123,6 +123,12 @@
 						</a>
 					</li>
 
+					<li class="sidebar-item">
+                        <a class="sidebar-link" href="tidaklolos.html">
+                            <i class="align-middle" data-feather="x-square"></i> <span class="align-middle">Report Tidak Lolos</span>
+                        </a>
+                    </li>
+
 					<li class="sidebar-header">
 						Manajemen Menu
 					</li>
@@ -319,38 +325,34 @@
 												<tr>
 													<th width="10"><input type="checkbox" class="checkall"></th>
 													<th class="d-xl-table-cell">ID</th>
+													<th class="d-md-table-cell">Aksi</th>
 													<th class="d-xl-table-cell">Name</th>
 													<th class="d-md-table-cell">Email</th>
 													<th class="d-md-table-cell">Status</th>
 													<th class="d-md-table-cell">Level User</th>
-													<th class="d-md-table-cell">Actions</th>
 												</tr>
 											</thead>
 											<tbody>
 												<tr>
 													<td><input type="checkbox"></td>
 													<td>1</td>
+													<td class="table-action">
+														<button type="button" class="btn btn-primary mb-3"
+															data-bs-toggle="modal" data-bs-target="#exampleModal">
+															<i class="align-middle"
+																data-feather="edit"></i></button>
+														<button type="button" class="btn btn-danger mb-3">
+															<i class="align-middle"
+																data-feather="alert-circle"></i></button>
+													</td>
 													<td class="d-xl-table-cell">Admin</td>
 													<td class="d-xl-table-cell">Admin@gmail.com</td>
 													<td><span class="badge bg-success">Active</span></td>
 													<td class="d-xl-table-cell">Super Admin</td>
-													<td class="table-action">
-														<button type="button" class="btn btn-primary mb-3"
-															data-bs-toggle="modal" data-bs-target="#exampleModal">
-															<i class="align-middle"
-																data-feather="edit"></i></button>
-														<button type="button" class="btn btn-danger mb-3">
-															<i class="align-middle"
-																data-feather="alert-circle"></i></button>
-													</td>
 												</tr>
 												<tr>
 													<td><input type="checkbox"></td>
 													<td>2</td>
-													<td class="d-xl-table-cell">Provinsi</td>
-													<td class="d-xl-table-cell">Provinsi@gmail.com</td>
-													<td><span class="badge bg-success">Active</span></td>
-													<td class="d-xl-table-cell">Provinsi</td>
 													<td class="table-action">
 														<button type="button" class="btn btn-primary mb-3"
 															data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -360,31 +362,31 @@
 															<i class="align-middle"
 																data-feather="alert-circle"></i></button>
 													</td>
+													<td class="d-xl-table-cell">Provinsi</td>
+													<td class="d-xl-table-cell">Provinsi@gmail.com</td>
+													<td><span class="badge bg-success">Active</span></td>
+													<td class="d-xl-table-cell">Provinsi</td>
 												</tr>
 												<tr>
 													<td><input type="checkbox"></td>
 													<td>3</td>
+													<td class="table-action">
+														<button type="button" class="btn btn-primary mb-3"
+															data-bs-toggle="modal" data-bs-target="#exampleModal">
+															<i class="align-middle"
+																data-feather="edit"></i></button>
+														<button type="button" class="btn btn-success mb-3">
+															<i class="align-middle"
+																data-feather="check-circle"></i></button>
+													</td>
 													<td class="d-xl-table-cell">Kabupaten</td>
 													<td class="d-xl-table-cell">kabupaten@gmail.com</td>
 													<td><span class="badge bg-danger">Deactive</span></td>
 													<td class="d-xl-table-cell">Kabupaten</td>
-													<td class="table-action">
-														<button type="button" class="btn btn-primary mb-3"
-															data-bs-toggle="modal" data-bs-target="#exampleModal">
-															<i class="align-middle"
-																data-feather="edit"></i></button>
-														<button type="button" class="btn btn-success mb-3">
-															<i class="align-middle"
-																data-feather="check-circle"></i></button>
-													</td>
 												</tr>
 												<tr>
 													<td><input type="checkbox"></td>
 													<td>4</td>
-													<td class="d-xl-table-cell">Kelurahan</td>
-													<td class="d-xl-table-cell">Kelurahan@gmail.com</td>
-													<td><span class="badge bg-danger">Deactive</span></td>
-													<td class="d-xl-table-cell">Kelurahan</td>
 													<td class="table-action">
 														<button type="button" class="btn btn-primary mb-3"
 															data-bs-toggle="modal" data-bs-target="#exampleModal">
@@ -394,6 +396,10 @@
 															<i class="align-middle"
 																data-feather="check-circle"></i></button>
 													</td>
+													<td class="d-xl-table-cell">Kelurahan</td>
+													<td class="d-xl-table-cell">Kelurahan@gmail.com</td>
+													<td><span class="badge bg-danger">Deactive</span></td>
+													<td class="d-xl-table-cell">Kelurahan</td>
 												</tr>
 											</tbody>
 										</table>
