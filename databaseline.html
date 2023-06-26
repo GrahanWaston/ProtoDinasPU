@@ -106,24 +106,10 @@
 
                     <li class="sidebar-item active">
                         <a class="sidebar-link" href="databaseline.html">
-                            <i class="align-middle" data-feather="server"></i> <span class="align-middle">Report
-                                Baseline</span>
+                            <i class="align-middle" data-feather="server"></i> <span class="align-middle">Report Data RTLH</span>
                         </a>
                     </li>
 
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="datarencanapenanganan.html">
-                            <i class="align-middle" data-feather="file-text"></i> <span class="align-middle">Report
-                                Rencana</span>
-                        </a>
-                    </li>
-
-                    <li class="sidebar-item">
-                        <a class="sidebar-link" href="datalolosverifikasi.html">
-                            <i class="align-middle" data-feather="check-circle"></i> <span class="align-middle">Report
-                                Verifikasi</span>
-                        </a>
-                    </li>
                     
                     <li class="sidebar-item">
                         <a class="sidebar-link" href="tidaklolos.html">
@@ -292,9 +278,23 @@
                                                                             </select>
                                                                         </div>
                                                                     </div>
+                                                                    <div class="col mb-3 mb-md-0">
+                                                                        <div class="input-group date"
+                                                                            id="datepickeryear">
+                                                                            <select name="" id="" class="form-control">
+                                                                                <option selected disabled>
+                                                                                    Jenis Data</option>
+                                                                                <option>Data Baseline</option>
+                                                                                <option>Data Rencana Penanganan</option>
+                                                                                <option>Data Penanganan</option>
+                                                                            </select>
+                                                                        </div>
+                                                                    </div>
                                                                     <div class="col mb-3 mb-md-0 btn-group">
                                                                         <button type="submit"
                                                                             class="btn btn-primary me-2">Cari</button>
+                                                                        <button type="submit"
+                                                                            class="btn btn-success me-2">Export</button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -312,6 +312,7 @@
                                                                 <th>Kabupaten </th>
                                                                 <th>Kecamatan </th>
                                                                 <th>Desa</th>
+                                                                <th>Alamat</th>
                                                                 <th>Pengusul</th>
                                                             </tr>
                                                         </thead>
@@ -323,6 +324,7 @@
                                                                 <td>YOGYAKARTA</td>
                                                                 <td>NGAMPILAN</td>
                                                                 <td>NGAMPILAN</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Provinsi</td>
                                                              
                                                             </tr>
@@ -333,6 +335,7 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>HARGOMULYO</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                                
                                                             </tr>
@@ -343,6 +346,7 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>HARGOMULYO</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                              
                                                             </tr>
@@ -353,6 +357,7 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>NGALANG</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                                 
                                                             </tr>
@@ -363,6 +368,7 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>MERTELU</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                               
                                                             </tr>
@@ -373,6 +379,7 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>SERUT</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                                 
                                                             </tr>
@@ -383,6 +390,7 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>TEGALREJO</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                                 
                                                             </tr>
@@ -393,6 +401,7 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>TEGALREJO</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                                 
                                                             </tr>
@@ -403,10 +412,8 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>SERUT</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
-                                                                <td class="d-print-none"><input type="checkbox"
-                                                                        name="profilid[]" value="1885"
-                                                                        onClick="selectall()"></td>
                                                             </tr>
                                                             <tr>
                                                                 <td>10.</td>
@@ -415,6 +422,7 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>HARGOMULYO</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                         
                                                             </tr>
@@ -425,6 +433,7 @@
                                                                 <td>GUNUNG KIDUL</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>HARGOMULYO</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                                 
                                                             </tr>
@@ -435,6 +444,7 @@
                                                                 <td>MERTELU</td>
                                                                 <td>GEDANGSARI</td>
                                                                 <td>GUNUNG KIDUL</td>
+                                                                <td>RT 1/RW 2</td>
                                                                 <td>Kab/Kota</td>
                                                             </tr>
                                                         </tbody>
